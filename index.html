@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Second JQuery Plug-In</title>
+        <link rel="stylesheet" href="css/madSlider.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/EmadSlider.js"></script>
+        <script>
+        	$(document).ready(function(e) {
+				$('.myMadSlides').theMadSlider({
+					slideViewTime: 1000,
+					leftArrow:".leftArrow",
+					rightArrow:".rightArrow"
+				});
+			});
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="theMadSliderContent">
+                <div class="myMadSlides">
+                    <img src="img/slides/slide1.jpg" class="madSliderImage" alt=""/>
+                    <img src="img/slides/slide2.jpg" class="madSliderImage" alt=""/>
+                    <img src="img/slides/slide3.jpg" class="madSliderImage" alt=""/>
+                    <img src="img/slides/slide4.jpg" class="madSliderImage" alt=""/>
+                </div>
+                <div class="madSliderNavigation">
+                    <img src="img/leftarrow.png" class="leftArrow" alt=""/>
+                    <img src="img/rightarrow.png" class="rightArrow" alt=""/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

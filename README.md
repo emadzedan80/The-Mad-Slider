@@ -1,2 +1,2 @@
 # emad-slider
-If you need a quick slider without all the custmization and a lot of depndncy files use Emad Slider and customize it
+If you need a quick slider without all the customization and a lot of dependency files use Emad Slider and customize it
